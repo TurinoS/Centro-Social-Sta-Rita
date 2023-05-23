@@ -1,9 +1,14 @@
 .header {
-    background-color: #112e4a;
+    background-color: #113f4a;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 2em;
+}
+
+.header div {
+    display: flex;
+    align-items: center;
+    padding: .5em 2em;
 }
 
 .header ul {
@@ -20,10 +25,21 @@
     color: #FFFFFF;
 }
 
-.doar, .doar a {
+.header a:hover {
+    color: #d55342;
+}
+
+#doar {
     background-color: #e0b03f;
-    font-size: 20px;
-    padding: 10px;
-    font-weight: 600;
-    color: #112e4a;
+    font-weight: 900;
+    color: #113f4a;
+    box-sizing: border-box;
+    padding: 1.5em 2em;
+}
+
+#doar:hover {
+    background-color: #d55342;
+    color: #FFF;
+    transition: 350ms;
+    cursor: pointer;
 }
