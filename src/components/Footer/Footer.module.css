@@ -1,0 +1,40 @@
+.footer{
+    background-color: var(--cinza);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 1em 10%;
+}
+
+.footer div {
+    padding: 1em 2em;
+}
+
+.footer a {
+    text-align: center;
+    align-self: center;
+    text-decoration: none;;
+    font-weight: 600;
+    background-color: var(--amarelo);
+    color: var(--verde-escuro);
+    padding: .5em 1em;
+    margin: 2em;
+    border: solid 2px var(--verde-escuro);
+    border-radius: 1em;
+}
+
+.footer a:hover {
+    background-color: var(--vermelho);
+    color: var(--branco);
+    transition: 350ms;
+}
+
+.footer div a {
+    background-color: var(--verde-escuro);
+    color: var(--branco);
+    border: none;
+    margin: 0;
+}
+
+.footer div a:hover {
+    background-color: rgba(17, 63, 74, 0.9);
+}

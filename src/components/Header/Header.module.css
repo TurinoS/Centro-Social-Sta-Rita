@@ -1,11 +1,10 @@
 .header {
-    background-color: #113f4a;
+    background-color: var(--verde-escuro);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: fixed;
+    position: sticky;
     top: 0;
-    left: 0;
     width: 100vw;
 }
 
@@ -26,24 +25,24 @@
 
 .header a {
     text-decoration: none;
-    color: #FFFFFF;
+    color: var(--branco);
 }
 
 .header a:hover {
-    color: #d55342;
+    color: var(--vermelho);
 }
 
 #doar {
-    background-color: #e0b03f;
+    background-color: var(--amarelo);
     font-weight: 900;
-    color: #113f4a;
+    color: var(--verde-escuro);
     box-sizing: border-box;
     padding: 1.5em 2em;
 }
 
 #doar:hover {
-    background-color: #d55342;
-    color: #FFF;
+    background-color: var(--vermelho);
+    color: var(--branco);
     transition: 350ms;
     cursor: pointer;
 }

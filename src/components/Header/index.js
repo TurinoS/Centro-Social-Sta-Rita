@@ -8,13 +8,13 @@ export default function Header() {
                 <Link to="/"><img src='#' alt="Centro Social Paróquia Santa Rita de Cássia"></img></Link>
                 <ul>
                     <li><Link to="/">Página Inicial</Link></li>
-                    <li><Link to="/">Quem Somos</Link></li>
-                    <li><Link to="/">Eventos</Link></li>
+                    <li><Link to="/about">Quem Somos</Link></li>
+                    <li><Link to="/events">Eventos</Link></li>
                     <li><Link to="/">Seja um apoiador</Link></li>
-                    <li><Link to="/">Contatos</Link></li>
+                    <li><Link to="/contato">Contatos</Link></li>
                 </ul>
             </div>
-            <Link to="/" id={styles.doar}>DOAR</Link>
+            <Link to="/doe" id={styles.doar}>DOAR</Link>
         </header>
     )
 }
