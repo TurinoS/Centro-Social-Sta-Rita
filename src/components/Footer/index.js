@@ -10,7 +10,7 @@ export default function Footer() {
             </div>
             <div>
                 <h3>Fale conosco</h3>
-                <Link to="/contato">Contatos</Link>
+                <Link to="/contatos">Contatos</Link>
             </div>
             <Link to="/doe">Faça sua doação</Link>
         </footer>

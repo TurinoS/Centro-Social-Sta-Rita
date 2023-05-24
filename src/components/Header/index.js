@@ -11,7 +11,7 @@ export default function Header() {
                     <li><Link to="/about">Quem Somos</Link></li>
                     <li><Link to="/events">Eventos</Link></li>
                     <li><Link to="/">Seja um apoiador</Link></li>
-                    <li><Link to="/contato">Contatos</Link></li>
+                    <li><Link to="/contatos">Contatos</Link></li>
                 </ul>
             </div>
             <Link to="/doe" id={styles.doar}>DOAR</Link>

@@ -1,11 +1,11 @@
 :root {
   --verde-escuro: #113f4a;
+  --verde-escuro-hover: rgba(17, 63, 74, 0.9);
   --verde-claro: #45b29d;
   --amarelo: #e0b03f;
   --vermelho: #d55342;
   --branco: #ffffff;
   --cinza: #EAEAE8;
-  --preto: #000;
 }
 
 body {
@@ -13,6 +13,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
+    background-color: var(--cinza);
     color: var(--verde-escuro);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

@@ -1,0 +1,127 @@
+.container {
+    background-color: var(--branco);
+    margin: 10vh 5vw 0;
+    padding: 0 10vw 10vh;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    grid-template-areas: 
+    "titulo titulo"
+    "contato form"
+    "mapa mapa";
+    column-gap: 2em;
+}
+
+.container h1 {
+    grid-area: titulo;
+    text-align: center;
+    color: var(--vermelho);
+    text-transform: uppercase;
+    margin: 1.5em 0 1.5em;
+}
+
+.contato {
+    grid-area: contato;
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+    box-sizing: border-box;
+    padding-right: 2em;
+}
+
+.contato h4 {
+    margin: 0;
+}
+
+.contato p {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+}
+
+.icone {
+    font-size: 1.3em;
+    min-width: 17px;
+}
+
+.form {
+    grid-area: form;
+    display: grid;
+    grid-template-areas: 
+    "nome sobrenome"
+    "email email"
+    "fone fone"
+    "assunto assunto"
+    "msg msg"
+    "btn btn";
+    gap: 1.5em;
+}
+
+.form input {
+    border: none;
+    border-bottom: 2px solid var(--verde-escuro);
+    padding: .5em;
+}
+
+.form input::placeholder{
+    color: var(--verde-escuro);
+    font-weight: 600;
+}
+
+.nome {
+    grid-area: nome;
+}
+
+.sobrenome {
+    grid-area: sobrenome;
+}
+
+.email {
+    grid-area: email;
+}
+
+.fone {
+    grid-area: fone;
+}
+
+.assunto {
+    grid-area: assunto;
+}
+
+.msg {
+    grid-area: msg;
+    border: none;
+    border-bottom: 2px solid var(--verde-escuro);
+    padding: .5em;
+}
+
+.msg::placeholder{
+    color: var(--verde-escuro);
+    font-weight: 600;
+}
+
+.form .btn {
+    grid-area: btn;
+    background-color: var(--amarelo);
+    font-weight: 900;
+    color: var(--verde-escuro);
+    box-sizing: border-box;
+    padding: 1.5em 3em;
+    border: none;
+    border-radius: 18px;
+    justify-self: center;
+}
+
+.btn:hover {
+    background-color: var(--vermelho);
+    color: var(--branco);
+    transition: 350ms;
+    cursor: pointer;
+}
+
+.mapa {
+    grid-area: mapa;
+    justify-self: center;
+    margin-top: 3em;
+    width: 80%;
+    height: 300px;
+}
