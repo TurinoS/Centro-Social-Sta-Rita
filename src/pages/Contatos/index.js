@@ -14,7 +14,7 @@ export default function Contatos() {
 
                 <p><FaPhoneAlt className={styles.icone} />+55 (18) 3221-7929</p>
 
-                <p><IoLogoWhatsapp className={styles.icone} />+55 (18) 3223-3223</p>
+                <p><IoLogoWhatsapp className={styles.icone} />+55 (18) 99610-8400</p>
 
                 <p><MdEmail className={styles.icone} /><Link target='_blank' to='https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=GTvVlcSGMhdWvqbJbBTDSVwMLzRVHwrMdPPtDJfxGzWlXCNwrlRVMHQlnjWDfjFGxQjbqxFCJDVKp'>
                     centrosocialstaritadecassia@hotmail.com</Link></p>
