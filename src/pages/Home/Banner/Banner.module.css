@@ -1,0 +1,22 @@
+.banner {
+    background-image: url(../../../../public/img/voluntariado-bg.png);
+    background-size: cover;
+    height: 50vw;
+    text-align: center;
+}
+
+.banner h1 {
+    color: var(--branco);
+    font-size: 68px;
+    margin: 0;
+    padding-top: 2em;
+    text-decoration: underline 3px var(--vermelho);
+    text-underline-offset: 8px;
+}
+
+.banner h2 {
+    color: var(--amarelo);
+    font-size: 24px;
+    padding: 0 17%;
+    margin: .5em 0;
+}
