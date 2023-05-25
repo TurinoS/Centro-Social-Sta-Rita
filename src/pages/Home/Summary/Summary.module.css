@@ -36,6 +36,11 @@
 .container_1 a {
     text-decoration: none;
     color: var(--verde-claro);
+    align-self: center;
+}
+
+.container_1 a:hover {
+    color: var(--verde-escuro);
 }
 
 .container_2 {
@@ -43,6 +48,24 @@
     background-size: cover;
     height: 100%;
     box-sizing: border-box;
+}
+
+.container_2 a, .container_4 a {
+    text-decoration: none;
+    color: var(--vermelho);
+    font-weight: 700;
+    background-color: var(--branco);
+    padding: .5em 1em;
+    align-self: center;
+    border-radius: 1.3em;
+    border: 2px solid var(--vermelho);
+}
+
+.container_2 a:hover, .container_4 a:hover {
+    color: var(--verde-escuro);
+    background-color: var(--cinza);
+    border: 2px solid var(--verde-escuro);
+    transition: 350ms;
 }
 
 .container_3 {

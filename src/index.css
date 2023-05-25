@@ -8,6 +8,17 @@
   --cinza: #EAEAE8;
 }
 
+::-webkit-scrollbar {
+  z-index: 0;
+  width: 8px;
+  background-color: var(--verde-escuro);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--amarelo);
+  border-radius: 3px;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
