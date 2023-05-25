@@ -6,7 +6,7 @@
     text-align: center;
     margin: 0 6vw;
     position: relative;
-    top: -255px;
+    bottom: 50%;
 }
 
 .container h3 {

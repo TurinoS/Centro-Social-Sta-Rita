@@ -6,10 +6,10 @@
   --vermelho: #ad4233;
   --branco: #ffffff;
   --cinza: #EAEAE8;
+  --footer-bg: #d7cfb7;
 }
 
 ::-webkit-scrollbar {
-  z-index: 0;
   width: 8px;
   background-color: var(--verde-escuro);
 }

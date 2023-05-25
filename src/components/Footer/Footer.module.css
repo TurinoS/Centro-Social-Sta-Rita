@@ -2,10 +2,11 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     padding: 1em 10%;
+    background-color: var(--footer-bg);
 }
 
 .footer div {
-    padding: 1em 2em;
+    padding: .5em 2em;
 }
 
 .footer a {
