@@ -1,0 +1,73 @@
+.container {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 6vw;
+    position: relative;
+    top: -255px;
+}
+
+.container h3 {
+    font-size: 1.75em;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.container p {
+    margin: 0;
+}
+
+.secao {
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5em;
+    color: var(--cinza);
+}
+
+.container_1 {
+    color: var(--verde-escuro);
+    background-color: var(--cinza);
+}
+
+.container_1 a {
+    text-decoration: none;
+    color: var(--verde-claro);
+}
+
+.container_2 {
+    background-image: url(../../../../public/img/faca-sua-parte-bg.png);
+    background-size: cover;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.container_3 {
+    background-color: var(--verde-claro);
+}
+
+.container_3 a {
+    text-decoration: none;
+    color: var(--cinza);
+    border: 1px solid var(--cinza);
+    border-radius: 8px;
+    text-transform: uppercase;
+    align-self: center;
+    padding: 6px 12px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.container_3 a:hover {
+    background-color: var(--verde-escuro);
+    transition: 350ms;
+}
+
+.container_4 {
+    background-color: var(--verde-escuro);
+    height: 100%;
+    box-sizing: border-box;
+}
