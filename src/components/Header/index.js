@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import styles from './Header.module.css';
+import HeaderLink from './HeaderLink';
 
 export default function Header() {
     return(
@@ -7,11 +8,11 @@ export default function Header() {
             <div>
                 <Link to="/"><img src='#' alt="Centro Social Paróquia Santa Rita de Cássia"></img></Link>
                 <ul>
-                    <li><Link to="/">Página Inicial</Link></li>
-                    <li><Link to="/about">Quem Somos</Link></li>
-                    <li><Link to="/events">Eventos</Link></li>
-                    <li><Link to="/doe">Seja um apoiador</Link></li>
-                    <li><Link to="/contatos">Contatos</Link></li>
+                    <li><HeaderLink to="/">Página Inicial</HeaderLink></li>
+                    <li><HeaderLink to="/about">Quem Somos</HeaderLink></li>
+                    <li><HeaderLink to="/events">Eventos</HeaderLink></li>
+                    <li><HeaderLink to="/doe">Seja um apoiador</HeaderLink></li>
+                    <li><HeaderLink to="/contatos">Contatos</HeaderLink></li>
                 </ul>
             </div>
             <Link to="/doe" id={styles.doar}>DOAR</Link>

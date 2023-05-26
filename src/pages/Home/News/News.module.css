@@ -13,16 +13,17 @@
     font-size: 1.75em;
 }
 
-.container a {
+.btn {
     background-color: var(--verde-escuro);
     padding: 1em 3em;
     border-radius: 2em;
     color: var(--branco);
     text-decoration: none;
     text-transform: uppercase;
+    margin-top: .5em;
 }
 
-.container a:hover {
+.btn:hover {
     background-color: var(--verde-escuro-hover);
     color: var(--cinza);
     transition: 350ms;

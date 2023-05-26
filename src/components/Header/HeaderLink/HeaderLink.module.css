@@ -1,0 +1,12 @@
+.a {
+    text-decoration: none;
+    color: var(--branco);
+}
+
+.a:hover {
+    color: var(--vermelho);
+}
+
+.link_destacado {
+    color: var(--vermelho);
+}

@@ -24,15 +24,6 @@
     list-style: none;
 }
 
-.header a {
-    text-decoration: none;
-    color: var(--branco);
-}
-
-.header a:hover {
-    color: var(--vermelho);
-}
-
 #doar {
     background-color: var(--amarelo);
     font-weight: 900;
