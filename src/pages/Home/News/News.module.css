@@ -13,6 +13,12 @@
     font-size: 1.75em;
 }
 
+.cards {
+    width: 90vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .btn {
     background-color: var(--verde-escuro);
     padding: 1em 3em;

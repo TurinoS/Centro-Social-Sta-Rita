@@ -7,7 +7,7 @@ export default function Card({ src, titulo, descricao, data }) {
             <img src={src} alt={titulo} />
             <h4>{titulo}</h4>
             <p>{descricao}</p>
-            <p>{data}</p>
+            <p className={styles.data}>{data}</p>
         </Link>
     )
 }

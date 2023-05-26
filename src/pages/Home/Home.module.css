@@ -1,6 +1,7 @@
 .bannerImg {
     background-size: cover;
-    height: 66.35vw;
+    max-width: 100%;
     position: absolute;
     top: 0;
+    left: 0;
 }

@@ -12,6 +12,7 @@
 ::-webkit-scrollbar {
   width: 8px;
   background-color: var(--verde-escuro);
+  position: relative
 }
 
 ::-webkit-scrollbar-thumb {

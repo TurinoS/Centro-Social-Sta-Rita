@@ -29,6 +29,7 @@
     font-weight: 900;
     color: var(--verde-escuro);
     padding: 1.5em 3em;
+    text-decoration: none;
 }
 
 #doar:hover {
