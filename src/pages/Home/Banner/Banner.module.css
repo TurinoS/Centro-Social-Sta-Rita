@@ -1,15 +1,15 @@
 .banner {
-    background-image: url(../../../../public/img/banner-bg.png);
-    background-size: cover;
-    height: 125vh;
+    height: 42.5vw;
     text-align: center;
+    position: relative;
+    top: 0;
 }
 
 .banner h1 {
     color: var(--branco);
     font-size: 68px;
     margin: 0;
-    padding-top: 3em;
+    padding-top: 14vw;
     text-decoration: underline 3px var(--vermelho);
     text-underline-offset: 8px;
 }
