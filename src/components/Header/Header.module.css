@@ -37,8 +37,7 @@
     background-color: var(--amarelo);
     font-weight: 900;
     color: var(--verde-escuro);
-    box-sizing: border-box;
-    padding: 1.5em 2em;
+    padding: 1.5em 3em;
 }
 
 #doar:hover {
