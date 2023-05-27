@@ -11,7 +11,7 @@ export default function Header() {
                     <li><HeaderLink to="/">Página Inicial</HeaderLink></li>
                     <li><HeaderLink to="/about">Quem Somos</HeaderLink></li>
                     <li><HeaderLink to="/events">Eventos</HeaderLink></li>
-                    <li><HeaderLink to="/doe">Seja um apoiador</HeaderLink></li>
+                    <li><HeaderLink to="/doe">Apoie-nos</HeaderLink></li>
                     <li><HeaderLink to="/contatos">Contatos</HeaderLink></li>
                 </ul>
             </div>

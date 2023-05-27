@@ -17,6 +17,7 @@
     color: var(--vermelho);
     text-transform: uppercase;
     margin: 1.5em 0 1.5em;
+    letter-spacing: 2px;
 }
 
 .contato {

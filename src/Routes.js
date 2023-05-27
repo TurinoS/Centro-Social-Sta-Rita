@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Contatos from "./pages/Contatos";
 import Home from "./pages/Home";
+import Apoie from "./pages/Apoie";
 
 function AppRoutes() {
   return (
@@ -10,7 +11,8 @@ function AppRoutes() {
       <Header />
       <Routes>
         <Route exact path="/" Component={Home} />
-        <Route exact path="/contatos" Component={Contatos} />
+        <Route path="/doe" Component={Apoie} />
+        <Route path="/contatos" Component={Contatos} />
       </Routes>
       <Footer />
     </BrowserRouter>
