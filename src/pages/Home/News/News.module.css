@@ -17,6 +17,7 @@
     width: 90vw;
     display: flex;
     justify-content: space-evenly;
+    margin: 1.5em 0;
 }
 
 .btn {

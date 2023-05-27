@@ -1,21 +1,18 @@
 [
     {
         "id": 1,
-        "img": "./sobremesa.jpg",
         "titulo": "Venda de sobremesas",
         "texto": "Compre uma sobremesa feita por uma de nossas alunas de culinária da terceira idade.",
         "data": "Domingo de manhã - 28/05/2023"
     },
     {
         "id": 2,
-        "img": "./sobremesa.jpg",
         "titulo": "Jantar dançante",
         "texto": "Participe do nosso jantar anual com direito a show de talentos dos assistidos.",
         "data": "Sábado às 19h - 24/06/2023"
     },
     {
-        "id": 4,
-        "img": "./sobremesa.jpg",
+        "id": 3,
         "titulo": "Aula de judô",
         "texto": "Aulas de judô gratuitas para crianças e adolescentes entre 5 e 16 anos.",
         "data": "Todas as quartas às 15h"

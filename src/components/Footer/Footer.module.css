@@ -1,15 +1,15 @@
-.footer{
+.container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     padding: 1em 10%;
     background-color: var(--footer-bg);
 }
 
-.footer div {
+.container div {
     padding: .5em 2em;
 }
 
-.footer a {
+.container a {
     text-align: center;
     align-self: center;
     text-decoration: none;;
@@ -22,19 +22,43 @@
     border-radius: 1em;
 }
 
-.footer a:hover {
+.container a:hover {
     background-color: var(--vermelho);
     color: var(--branco);
     transition: 350ms;
 }
 
-.footer div a {
+.container div a {
     background-color: var(--verde-escuro);
     color: var(--branco);
     border: none;
     margin: 0;
 }
 
-.footer div a:hover {
+.container div a:hover {
     background-color: var(--verde-escuro-hover)
+}
+
+.footer h5 {
+    background-color: var(--verde-claro);
+    text-transform: uppercase;
+    color: var(--verde-escuro);
+    font-size: 24px;
+    margin: 0;
+    text-align: center;
+    padding: 1em;
+}
+
+.copy {
+    background-color: var(--verde-escuro);
+    color: var(--cinza);
+    margin: 0;
+    padding: .5em;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.copy span {
+    color: var(--amarelo);
 }
