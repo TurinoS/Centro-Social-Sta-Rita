@@ -15,6 +15,11 @@
     padding: .5em 2em;
 }
 
+.header img {
+    width: 15%;
+    margin-left: 5em;
+}
+
 .header ul {
     display: flex;
     gap: 2em;

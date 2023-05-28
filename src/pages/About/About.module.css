@@ -1,0 +1,23 @@
+.container {
+    background-color: var(--branco);
+    margin: 10vh 5vw;
+    padding: 10vh 10vw;
+}
+
+.container h1 {
+    text-transform: uppercase;
+    color: var(--vermelho);
+    font-size: 32px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.container h2 {
+    margin-top: 3em;
+}
+
+.container img {
+    width: 40%;
+    float: left;
+    margin: 1em 2em 1em 0;
+}
