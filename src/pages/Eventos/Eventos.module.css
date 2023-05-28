@@ -1,0 +1,13 @@
+.container {
+    text-align: center;
+    padding-bottom: 3em;
+}
+
+.container h1 {
+    grid-area: titulo;
+    text-align: center;
+    color: var(--vermelho);
+    text-transform: uppercase;
+    margin: 1.5em 0 1.5em;
+    letter-spacing: 2px;
+}

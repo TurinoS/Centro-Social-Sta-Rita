@@ -5,6 +5,7 @@ import Contatos from "./pages/Contatos";
 import Home from "./pages/Home";
 import Apoie from "./pages/Apoie";
 import About from "./pages/About";
+import Eventos from "./pages/Eventos";
 
 function AppRoutes() {
   return (
@@ -13,6 +14,7 @@ function AppRoutes() {
       <Routes>
         <Route exact path="/" Component={Home} />
         <Route path="/about" Component={About} />
+        <Route path="/events" Component={Eventos} />
         <Route path="/doe" Component={Apoie} />
         <Route path="/contatos" Component={Contatos} />
       </Routes>
